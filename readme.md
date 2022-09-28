@@ -1,6 +1,6 @@
 # Age Calculator Application
 
-![thumbnail](./Thumbnail.PNG)
+![thumbnail](./Image/Age_Calculator.png)
 
 It took me around 1 hour to create this application.
 
