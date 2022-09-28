@@ -26,6 +26,13 @@ function calcAge(inputDate,currentDate,myMonth,myDay,myYear){
         // alert("Not yet born");
         return;
     }
+    if (myYear > currentYear || myMonth > currentMonth || myDay > currentDay) {
+        age.style.display = "none";
+        error.style.display = "block";
+        error.textContent = "Incorrect DOB";
+        // alert("Not yet born");
+        return;
+    }
     //myage currentYear - your DOB's year
     let myAge_years = currentYear - myYear;
     let myAge_months = currentMonth - myMonth;
