@@ -22,14 +22,14 @@ function calcAge(inputDate,currentDate,myMonth,myDay,myYear){
     if (currentYear == myYear && currentMonth == myMonth && currentDay==myDay) {
         age.style.display = "none";
         error.style.display = "block";
-        error.textContent = "Not Yet Born";
+        error.textContent = "Not Yet Born 😛";
         // alert("Not yet born");
         return;
     }
     if (myYear > currentYear || myMonth > currentMonth || myDay > currentDay) {
         age.style.display = "none";
         error.style.display = "block";
-        error.textContent = "Incorrect DOB";
+        error.textContent = "Incorrect DOB 😂";
         // alert("Not yet born");
         return;
     }
